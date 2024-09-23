@@ -272,8 +272,8 @@ html {
   width: 140px;
   height: calc(100% + 80px);
   right: 0px;
-  top: -40px;
   z-index: -1;
+  top: -40px;
 }
 
 @media (max-width: 1399px) {
