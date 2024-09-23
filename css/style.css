@@ -235,12 +235,7 @@ html {
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
-@media (max-width: 689px) {
-  .services .container .services-content .col .service {
-    flex-direction: column;
-    text-align: center;
-  }
-}
+
 .services .container .services-content .col .service i {
   color: var(--main-color);
   flex-basis: 60px;
@@ -253,6 +248,15 @@ html {
   margin: 0 0 15px;
   padding-left: 60px;
   color: #777;
+}
+@media (max-width: 689px) {
+  .services .container .services-content .col .service {
+    flex-direction: column;
+    text-align: center;
+  }
+  .services .container .services-content .col .service p {
+    padding-left: 0;
+  }
 }
 .services .container .services-content .col img {
   width: 260px;
